@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tribetera AI Booking Agent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #0e3a61;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background: #00c48c;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    section ul {
+      list-style: none;
+    }
+    section ul li::before {
+      content: '✔';
+      color: #00c48c;
+      margin-right: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    input[type="submit"] {
+      background-color: #00c48c;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background: #0e3a61;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tribetera AI Booking Agent</h1>
+    <p>Revolutionizing Customer Service with Voice AI for Local Businesses</p>
+    <a href="#contact" class="btn">Schedule a Free Demo</a>
+  </header>
+
+  <section>
+    <h2>What We Do</h2>
+    <p>Tribetera provides an AI-powered voice assistant that handles all your appointment bookings—so you don’t need to hire call agents anymore. Our smart AI books, confirms, reschedules, and manages appointments 24/7.</p>
+  </section>
+
+  <section>
+    <h2>Perfect for Small & Medium Businesses</h2>
+    <ul>
+      <li>Salons & Hairstylists</li>
+      <li>Dentists & Doctors' Offices</li>
+      <li>Gyms & Personal Trainers</li>
+      <li>Therapists & Wellness Centers</li>
+      <li>Repair Services & Home Businesses</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why Choose Tribetera?</h2>
+    <ul>
+      <li>AI voice agent answers calls instantly</li>
+      <li>24/7 booking, confirmation, and rescheduling</li>
+      <li>No staff training or turnover issues</li>
+      <li>Seamless integration with your calendar</li>
+      <li>Multilingual support</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <form action="https://formspree.io/f/mqkrdqnl" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="How can we help you?" required></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tribetera Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
